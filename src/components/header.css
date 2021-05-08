@@ -1,0 +1,15 @@
+
+.header{
+	position: relative;
+	top:70px;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+.header__content{
+	position: relative;
+	top: 70px;
+}
+
+@media query(max-width: 928px){
+	
+}

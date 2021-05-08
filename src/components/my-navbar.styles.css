@@ -1,0 +1,88 @@
+.logo {
+  width: 80%;
+}
+
+.nav-theme {
+  background-color: #101018f8;
+  font-size: 20px;
+}
+
+.animate-navbar {
+/*  box-shadow: 1px 1px 1px #222;
+*/  animation: moveDown 0.5s ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+.bg-color{
+  background-color:  #FFFFFF;
+}
+.nav-custom{
+  color: black !important;
+  font-size:15px;
+  margin-right: 2em;
+}
+.button {
+ background: #FF5C00;
+  border: none;
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+/*  padding:0 15px;
+*/}
+
+.button1 {
+  padding: 17px 34px;
+}
+
+.border-top-bottom{
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  overflow: hidden;
+ position: relative;
+ top:70px;
+ -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+.nav-custom-2{
+  color: black !important;
+  font-size:15px;
+  margin-right: 5em;
+  background: #FFFFFF;
+
+
+}
+@media only screen and (max-width: 480px) {
+.navbar-below{
+  display: none !important;
+}
+.nav-custom-2{
+  display: none !important;
+}
+
+.border-top-bottom{
+  display: none !important;
+  flex:none;
+}
+
+.header__content {
+    position: relative;
+    top: 40px !important;
+    margin-bottom: 70px;
+}
+
+}
+
